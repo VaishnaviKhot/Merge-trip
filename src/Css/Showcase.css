@@ -1,0 +1,34 @@
+.showcase {
+    background: url('./assests/bgimg.jpg')
+      no-repeat center/cover;
+    height: 775px;
+    z-index: 10000;
+  }
+  
+  .showcase .showcase-overlay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .showcase .showcase-overlay h1 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  @media (min-width: 768px) {
+    .showcase {
+      background-position: top;
+    }
+  
+    .showcase .showcase-overlay h1 {
+      font-size: 64px;
+    }
+  
+    .showcase .showcase-overlay p {
+      font-size: 18px;
+    }  
+}

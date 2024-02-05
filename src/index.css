@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.8;
+} */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+/* .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #a2c3e7;
+}
+
+.header .links {
+  margin: 0 10px;
+  color: #000;
+  text-decoration: none;
+}
+.header .links:Hover {
+  color: #0035a0;
+} */
+
+
+/* .destinations {
+  padding: 50px;
+  text-align: center;
+}
+
+.destinations h3 {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+}
+
+.destinations .grid div {
+  background-color: #f1f1f1;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.destinations .grid div img {
+  border-radius: 10px;
+} */
+
+/* 
+.login .form-control {
+  display: flex;
+  flex-direction: column;
+} */
+
+/* .login .form-control a {
+  color: #0088ff;
+}
+
+.login .form-control input {
+  margin: 5px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  width: 80vw;
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.login .form-control button {
+  background-color: #a2c3e7;
+  padding: 8px;
+  border: 2px solid #2c7f86;
+  color: #fff;
+  font-family: inherit;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.login .form-control button:hover {
+  background-color: #273039;
+} */
+
+/* @media (min-width: 768px) {
+  .showcase {
+    background-position: top;
+  }
+
+  .showcase .showcase-overlay h1 {
+    font-size: 64px;
+  }
+
+  .showcase .showcase-overlay p {
+    font-size: 18px;
+  }
+
+  .destinations .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .destinations .grid div img {
+    height: 150px;
+    width: 300px;
+  }
+
+  .footer ul {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .login .form-control input {
+    width: 50vw;
+  }
+}
+
+
+
+
+.profile-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid gainsboro;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.profile-info {
+  margin-top: 0.5rem;
+}
+
+.display-name {
+  font-size: 1.5rem;
+}
+
+.additional-info {
+  font-size: 0.85rem;
+  color: #616161;
+  margin-top: 0.25rem;
+}
+
+.profile-stats {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.profile-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 70px;
+  cursor: pointer;
+}
+
+.profile-stat:hover strong {
+  color: royalblue;
+}
+
+.profile-controls {
+  margin-top: 1rem;
+}
+
+.stacked-button {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.additional-info p {
+  margin: 0.25rem 0;
+}
+ */

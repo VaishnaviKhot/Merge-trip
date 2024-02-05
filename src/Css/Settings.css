@@ -1,0 +1,51 @@
+/* Common styles for all screen sizes */
+.settings-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.settings-heading {
+  color: #333;
+  text-align: center;
+}
+
+.settings-list {
+  list-style: none;
+  padding: 0;
+}
+
+.settings-item {
+  cursor: pointer;
+  padding: 10px;
+  margin: 15px 0;
+  background-color: #292929;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.settings-item:hover {
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #000;
+}
+
+.settingPage {
+  /* Add specific styles for the setting page if needed */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 600px) {
+  .settings-container {
+    padding: 15px;
+  }
+
+  .settings-item {
+    padding: 8px;
+    margin: 10px 0;
+  }
+}

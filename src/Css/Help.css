@@ -1,0 +1,82 @@
+/* ChatAssistant.css */
+
+.chat-container {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  position: fixed;
+  top: 60px; 
+  left: 600px; /* Adjust the distance from the right */
+}
+
+.chat-messages {
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.user-message {
+  background-color: #f0f0f0;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.assistant-message {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.chat-input {
+  display: flex;
+  padding: 10px;
+  /* background-color: #fff; */
+}
+
+.chat-input input {
+  flex: 1;
+  height: 50px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.chat-input button {
+  height: 50px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .chat-container {
+    width: 100%;
+    left: 0;
+    right: 0;
+  }
+
+  .chat-messages {
+    max-height: 150px;
+  }
+
+  .chat-input {
+    padding: 5px;
+  }
+
+  .chat-input input {
+    height: 40px;
+  }
+
+  .chat-input button {
+    height: 40px;
+  }
+}

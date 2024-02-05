@@ -1,0 +1,65 @@
+/* Default styles for larger screens */
+.create-trip {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotel-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.hotel {
+    background-color: #f1f1f1;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.selected-hotel {
+    margin-top: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+.profile-wrapper {
+    width: 375px;
+    height: fit-content;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .create-trip {
+        margin: 10px;
+    }
+
+    .hotel {
+        padding: 15px;
+    }
+
+    .profile-wrapper {
+        width: 100%;
+        max-width: 375px;
+    }
+}

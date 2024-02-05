@@ -1,0 +1,135 @@
+div.scrollmenu {
+  position: relative;
+  left: 15%;
+  width: 75%;
+  /* background-color: #c4c4c4; */
+  overflow-x: auto;
+  /* /Addscrollbarforhorizontaloverflow/ */
+  white-space: nowrap;
+  padding: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  /*border-top: 0.5px solid rgb(52, 52, 52);
+  border-bottom: 0.5px solid rgb(52, 52, 52);
+  */;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+div.scrollmenu h1 {
+  margin: 10px;
+  font-weight: bolder;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* div.scrollmenu:hover .scrolling-content {
+  animation: scroll 50s linear infinite;
+}
+
+div.scrollmenu .scrolling-content:hover {
+  animation-play-state: paused;
+}
+
+div.scrollmenu .scrolling-content:hover:after {
+  content: "";
+  animation: restart 0.1s linear forwards;
+} */
+
+@keyframes restart {
+  to {
+    transform: translateX(0);
+  }
+}
+
+div.scrollmenu::-webkit-scrollbar {
+  width: 12px; /* Set the width of the scrollbar */
+}
+
+div.scrollmenu::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 6px; /* Round corners of the scrollbar thumb */
+}
+
+div.scrollmenu::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+}
+
+div.scrollmenu a img {
+  width: 200px;
+  height: 230px;
+  position: relative;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+div.scrollmenu a img:hover {
+  /* opacity: 0.5; */
+  background-color: #c4c4c4;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  position: relative;
+}
+
+div.scrollmenu a h6 {
+  position: absolute;
+  width: 60px;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  background-color: #fff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+div.scrollmenu a h7 {
+  position: absolute;
+  width: 60px;
+  top: 70%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  color: #fff;
+  /* background-color: #fff; */
+  font-size: 1.1rem;
+  font-weight :bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+div.scrollmenu a:hover {
+  background-color: #c4c4c4;
+}
+
+.scrollmenu .scrolling-content {
+  display: inline-block;
+  white-space: nowrap;
+  /* animation: scroll 50s linear infinite; */
+}

@@ -1,0 +1,71 @@
+/* Slider styles */
+.Slider {
+  margin-left: 70px; /* Shift the entire slider to the right by 70px */
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.slider-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-container i {
+  font-size: large;
+  font-weight: 1.5rem;
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.image-container {
+  flex: 1;
+  position: relative;
+  text-align: center; /* Center the image horizontally */
+}
+
+/* Style for the image inside the image container */
+.image-container img {
+  max-width: 120%;
+  height: auto;
+  margin-left: 150px; /* Adjust the margin as needed */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .slider-container {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 20px;
+  }
+
+  .slider-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-container,
+  .image-container {
+    flex: none;
+    margin-bottom: 20px;
+  }
+
+  /* Adjust other styles as needed for smaller screens */
+}

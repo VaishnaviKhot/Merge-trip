@@ -1,0 +1,38 @@
+.create-trip-form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #c4c4c4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.create-trip-input {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #444;
+  color: #ddd;
+}
+
+.create-trip-input:focus {
+  outline: none;
+  border-color: #555;
+}
+
+.create-trip-button {
+  background-color: #555;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.create-trip-button:hover {
+  background-color: #777;
+}

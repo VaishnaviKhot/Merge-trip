@@ -1,0 +1,84 @@
+/* Destinations.css */
+
+.destinations {
+  padding: 50px;
+  color: black;
+  margin-left: 30px;
+  background-image: linear-gradient(to left, #000000, #1d1d1d, #333333, #4b4b4b, #646464, #787878, #8d8d8d, #a3a3a3, #b8b8b8, #cdcdcd, #e3e3e3, #f9f9f9);
+}
+
+.destinations h2 {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Roboto', sans-serif; /* Use a Google Font or any other font of your choice */
+}
+
+.place-list {
+  margin-left: 20px; /* Adjust the margin */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust the space between cards */
+}
+
+.place-card {
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 20px 0;
+  color: black;
+  display: flex;
+  transition: transform 0.3s ease-in-out; /* Add transition for hover effect */
+}
+
+.place-card:hover {
+  transform: scale(1.05);
+}
+
+.place-image {
+  margin: 10px;
+  width: 60%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 0 0 10px;
+}
+
+.destination-details {
+  width: 40%; /* Adjust the width */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif; /* Use a Google Font or any other font of your choice */
+}
+
+.destination-details h3 {
+  font-size: 1.2em; /* Adjust the font size */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.destination-details p {
+  font-size: 0.9em; /* Adjust the font size */
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .place-card {
+    width: 100%;
+  }
+
+  .place-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .destination-details {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+  }
+}
